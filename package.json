@@ -24,16 +24,21 @@
     "test": "npm run build"
   },
   "dependencies": {
-    "primer-base": "^0.3.0",
-    "primer-box": "0.0.1",
-    "primer-buttons": "^0.3.1",
-    "primer-forms": "^0.5.0",
-    "primer-layout": "^0.2.4",
-    "primer-navigation": "^0.5.0",
-    "primer-support": "^0.6.0",
-    "primer-table-object": "^1.0.0",
-    "primer-tooltips": "^0.4.0",
-    "primer-truncate": "^0.2.4",
-    "primer-utilities": "^1.0.0"
+    "primer-base": "*",
+    "primer-box": "*",
+    "primer-buttons": "*",
+    "primer-forms": "*",
+    "primer-layout": "*",
+    "primer-navigation": "*",
+    "primer-support": "*",
+    "primer-table-object": "*",
+    "primer-tooltips": "*",
+    "primer-truncate": "*",
+    "primer-utilities": "*"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "node-sass": "^3.7.0",
+    "postcss-cli": "^2.5.2"
   }
 }
