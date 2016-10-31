@@ -3,7 +3,7 @@
 [![NPM version](http://img.shields.io/npm/v/primer-core.svg)](https://www.npmjs.org/package/primer-core)
 [![Build Status](https://travis-ci.org/primer/primer-core.svg?branch=master)](https://travis-ci.org/primer/primer-core)
 
-> Primer core are the core modules of the primer framework. Shared between our product and marketing pages.
+> Primer core is the core modules of the primer framework. Shared between our product and marketing pages.
 
 This repository is a compilation of [several CSS modules](https://github.com/primer). You can break it down into smaller sections using npm.
 

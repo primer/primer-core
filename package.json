@@ -29,7 +29,6 @@
     "primer-buttons": "*",
     "primer-forms": "*",
     "primer-layout": "*",
-    "primer-module-build": "*",
     "primer-navigation": "*",
     "primer-support": "*",
     "primer-table-object": "*",
@@ -38,8 +37,6 @@
     "primer-utilities": "*"
   },
   "devDependencies": {
-    "autoprefixer": "^6.3.6",
-    "node-sass": "^3.7.0",
-    "postcss-cli": "^2.5.2"
+    "primer-module-build": "*"
   }
 }
