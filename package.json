@@ -19,7 +19,7 @@
   },
   "scripts": {
     "setup": "if [ ! -d \"node_modules\" ]; then npm install; fi",
-    "build": "node-sass index.scss --include-path node_modules --output-style compressed | postcss -c .postcss.json -o build/build.css",
+    "build": "primer-module-build index.scss",
     "prepublish": "npm run setup && npm run build",
     "test": "npm run build"
   },
@@ -29,6 +29,7 @@
     "primer-buttons": "*",
     "primer-forms": "*",
     "primer-layout": "*",
+    "primer-module-build": "*",
     "primer-navigation": "*",
     "primer-support": "*",
     "primer-table-object": "*",
