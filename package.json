@@ -6,6 +6,7 @@
   "author": "GitHub, Inc.",
   "license": "MIT",
   "style": "build/build.css",
+  "main": "build/index.js",
   "files": [
     "index.scss",
     "build"
@@ -18,9 +19,8 @@
     "url": "https://github.com/primer/primer-core/issues"
   },
   "scripts": {
-    "setup": "if [ ! -d \"node_modules\" ]; then npm install; fi",
     "build": "primer-module-build index.scss",
-    "prepublish": "npm run setup && npm run build",
+    "prepublish": "npm run build",
     "test": "npm run build"
   },
   "dependencies": {
