@@ -37,6 +37,6 @@
     "primer-utilities": "^3.3.1"
   },
   "devDependencies": {
-    "primer-module-build": "^1.0.2"
+    "primer-module-build": "*"
   }
 }
