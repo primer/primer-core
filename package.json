@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "primer-base": "^0.4.0",
-    "primer-box": "2.0.2",
+    "primer-box": "2.1.1",
     "primer-buttons": "^0.4.1",
     "primer-forms": "^0.7.1",
     "primer-layout": "^0.3.0",
